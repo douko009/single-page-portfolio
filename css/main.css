@@ -2,6 +2,7 @@ html {
     margin: 0;
     width: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -63,4 +64,30 @@ body {
     font-weight: 300;
     margin: 0px;
     font-size: 2.2rem;
+}
+
+/* MAIN */
+
+main {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#about {
+    text-align: center;
+    padding: 45px;
+    color: white;
+    font-weight: 300;
+}
+
+#about h2 {
+    margin:0;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+about p {
+    font-size: 1.3rem;
+    font-weight: 300;
 }
