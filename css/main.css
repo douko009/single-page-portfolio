@@ -1,0 +1,66 @@
+html {
+    margin: 0;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    margin: 0px;
+    top: 0;
+    right: 0;
+}
+
+.portfolio-hero {
+    background: url(../img/image3.png) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}    
+.portfolio-menu ul{
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+
+.portfolio-menu ul li {
+    margin: 0px 10px;
+    list-style: none;
+}
+
+.portfolio-menu .menu-item a {
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.porfolio-profile {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.porfolio-profile img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: solid lightcoral;
+}
+
+.porfolio-profile h1 {
+    font-weight: 300;
+    margin: 0px;
+    font-size: 3.2rem;
+}
+
+.porfolio-profile h2 {
+    font-weight: 300;
+    margin: 0px;
+    font-size: 2.2rem;
+}
