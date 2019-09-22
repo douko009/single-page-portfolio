@@ -91,3 +91,14 @@ about p {
     font-size: 1.3rem;
     font-weight: 300;
 }
+
+.skills-main-grid {
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#skill
+    {
+        color: white;
+    }
