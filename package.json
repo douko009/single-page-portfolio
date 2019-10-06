@@ -1,0 +1,22 @@
+{
+  "name": "single-page-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "None",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douko009/single-page-portfolio.git"
+  },
+  "author": "Iel Arvill Villaruel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douko009/single-page-portfolio/issues"
+  },
+  "homepage": "https://github.com/douko009/single-page-portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

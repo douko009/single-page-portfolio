@@ -137,7 +137,7 @@ form {
     font-size: 1.3rem;
 }
 .form-input input {
-    width: 50%;
+    width: 100%;
     padding: 7px 0px;
     border-radius: 8px;
 }
@@ -176,3 +176,12 @@ form {
     padding: 20px;
     background: darkslategray;
 }
+
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
