@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Villaruel</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="portfolio-hero">
+            <div class="portfolio-menu">
+                <ul class="nav-menu">
+                    <li class="menu-item"><a href="#home">Home</li></a>
+                    <li class="menu-item"><a href="#about">About me</li></a>
+                    <li class="menu-item"><a href="#skills">Skills</li></a>
+                    <li class="menu-item"><a href="#contact">Contact</li></a>
+                </ul>
+                    <div class="porfolio-profile">
+                        <img alt="profile-pic" src="img/images.png">
+                        <h1>Villaruel, Iel Arvill P.</h1>
+                            <h2>BSIT STUDENT ♥ </h2>
+                    </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id=about>
+            <h2>About me</h2>
+            <p>
+                Im a Second Year Information Technology Major that is currently doing my studies inside AUP.
+                I dont really have any unique skills yet, but im willing to learn more about this track that im currently 
+                in.
+            </p>
+        </div>
+
+        <div id=skills>
+            <h1>My Skills</h1>
+        <div class="skills-main-grid">
+        <div class="skills-grid1">
+                <h2>Computer Hardware Services</h2>
+                <p>I have enough knowledge to troubleshoot computer hardware problems</p>
+        </div>
+        <div class="skills-grid2">
+        
+                <h2>Basic Web Designs</h2>
+                <p>Im good at giving ideas of the design for a certain webpages or user interfaces</p>
+        </div>
+        <div class="skills-grid3">
+                <h2>Microsoft Word Expert</h2>
+                <p>Im a certified Microsoft Word Expert</p>
+        </div>
+        </div>
+        </div>
+
+        <div id=contact>
+            
+        </div>
+            <footer>
+                <form class = "portfolio-from">
+                <h2>Send me a message</h2>
+                    <div class="form-row">
+                        <label class = "form-laber">Subject: </label>
+                        <div class="form-input">
+                            <input id="mailSubject" class="form-input-text" type="text">
+                        </div>
+                   </div>
+                   <div class="form-row">
+                       <label class="form-label"> Message: </label>
+                       <div class="form-input">
+                        <textarea id=mailMessage class="form-input-text" type="text" style="margin: 0px; width: 1337px; height: 273px;"></textarea>
+
+                       </div>
+                   </div>
+                   <div class="form-submit">
+                       <button><a onmouseover="appendMailTo()" id="sendMail" href="mailto:iel_arvill@yahoo.com" class="btn-submit">Submit</a></button>
+                   </div>
+                   </form>
+                   <div class="footer">
+                       Copyright &copy; <span id="getYear"></span>
+                   </div>
+            </footer>
+            <script src="js/main.js"></script>
+    </main> 
+</body>
+</html>
